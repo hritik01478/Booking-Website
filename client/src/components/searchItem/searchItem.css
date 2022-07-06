@@ -73,7 +73,7 @@
 .siRating>button {
     background-color: #003580;
     color: white;
-    padding: 3px 5px;
+    padding: 3px 8px;
     font-weight: bold;
     border: none;
 }
@@ -98,7 +98,8 @@
     background-color: #0071c2;
     color: white;
     font-weight: bold;
-    padding: 10px 5px;
+    padding: 10px 10px;
     border: none;
     cursor: pointer;
+    /* border-radius: 2px; */
 }

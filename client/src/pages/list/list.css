@@ -80,6 +80,7 @@
     width: 100%;
     font-weight: 500;
     cursor: pointer;
+    border-radius: 5px;
 }
 
 .listResult {
