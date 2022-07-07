@@ -38,14 +38,14 @@ const Login = () => {
                     type="text"
                     placeholder="username"
                     id="username"
-                    onChange={handleChange}
+                    onChange={(e) => handleChange(e)}
                     className="lInput"
                 />
                 <input
                     type="password"
                     placeholder="password"
                     id="password"
-                    onChange={handleChange}
+                    onChange={(e) => handleChange(e)}
                     className="lInput"
                 />
                 <button disabled={loading} onClick={handleClick} className="lButton">
