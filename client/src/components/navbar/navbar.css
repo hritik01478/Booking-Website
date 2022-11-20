@@ -19,6 +19,49 @@
     font-weight: 600;
 }
 
+.navItems {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.navItems>img {
+    margin: 0px 10px;
+    height: 30px;
+    width: 30px;
+    border-radius: 5px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.profile>span {
+    /* margin: 0 10px; */
+    cursor: pointer;
+}
+
+
+.options {
+    padding: 5px;
+    font-size: 15px;
+    /* position: absolute; */
+    color: #003580;
+    border-radius: 5px;
+    background-color: white;
+    cursor: pointer;
+    width: 80px;
+    text-align: center;
+}
+
+.option {
+    display: none;
+}
+
+/* .profile:hover .options {
+    display: block;
+    align-items: center;
+} */
+
 .navButton {
     color: #003580;
     margin-left: 15px;
